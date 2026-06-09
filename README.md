@@ -53,8 +53,8 @@ Zawsze szukam optymalnych rozwiązań, a w kodzie cenię sobie porządek, wydajn
 
 ### Frontend & CSS Art
 * **Languages:** HTML5, CSS3 / SASS, JavaScript
-* **Pasja:** Tworzenie zaawansowanych grafik i interfejsów wyłącznie za pomocą kodu (CSS Art) – zajrzyj na mój [CodePen]([LINK_DO_CODEPENA]).
-
+* **Pasja:** Tworzenie zaawansowanych grafik i interfejsów wyłącznie za pomocą kodu (CSS Art)
+* 
 ### Backend & Programowanie
 * **Python:** Tworzenie skryptów, automatyzacja i logika aplikacji (w trakcie certyfikacji Harvard CS50P).
 * **Algorytmy i Podstawy:** Dumny absolwent akademickiego kursu **Harvard CS50**.
@@ -73,19 +73,11 @@ Zawsze szukam optymalnych rozwiązań, a w kodzie cenię sobie porządek, wydajn
 
 ---
 
-## 📊 Statystyki GitHuba
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TWÓJ_USERNAME&show_icons=true&theme=gotham" alt="Statystyki Daniela" />
-</p>
-
----
 
 ## 📫 Jak się ze mną skontaktować?
 
-* **LinkedIn:** [linkedin.com/in/TWÓJ_PROFIL]([LINK])
 * **E-mail:** praca@danieltrzecinski.pl *(lub Twój alternatywny mail)*
-* **Portfolio / CodePen:** [LINK]
+
 
 ---
 <p align="center"><i>"The best way to predict the future is to code it."</i></p>
