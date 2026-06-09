@@ -76,7 +76,7 @@ Zawsze szukam optymalnych rozwiązań, a w kodzie cenię sobie porządek, wydajn
 
 ## 📫 Jak się ze mną skontaktować?
 
-* **E-mail:** praca@danieltrzecinski.pl *(lub Twój alternatywny mail)*
+* **E-mail:** praca@danieltrzecinski.pl 
 
 
 ---
