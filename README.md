@@ -54,7 +54,7 @@ Zawsze szukam optymalnych rozwiązań, a w kodzie cenię sobie porządek, wydajn
 ### Frontend & CSS Art
 * **Languages:** HTML5, CSS3 / SASS, JavaScript
 * **Pasja:** Tworzenie zaawansowanych grafik i interfejsów wyłącznie za pomocą kodu (CSS Art)
-* 
+  
 ### Backend & Programowanie
 * **Python:** Tworzenie skryptów, automatyzacja i logika aplikacji (w trakcie certyfikacji Harvard CS50P).
 * **Algorytmy i Podstawy:** Dumny absolwent akademickiego kursu **Harvard CS50**.
