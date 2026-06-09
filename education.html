@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang-key="eduPageTitle">Daniel Trzeciński | Edukacja i Kursy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="page-wrapper">
+        
+        <!-- LEWY PANEL BOCZNY -->
+        <aside class="sidebar" id="sidebar-menu">
+            <div class="sidebar-sticky">
+                <div class="lang-container-desktop">
+                    <button class="lang-btn" id="lang-toggle">EN</button>
+                </div>
+
+                <p class="sidebar-sub" data-lang-key="sidebarSub">home page of</p>
+                <h1 class="sidebar-title">Daniel Trzeciński</h1>
+                <p class="sidebar-desc" data-lang-key="sidebarDesc">Absolwent Harvard University CS50X, Dyplomowany Specjalista Informatyk Programista Aplikacji Internetowych i Mobilnych, Game Designer, Technik informatyk</p>
+                <p class="sidebar-institution" data-lang-key="sidebarInstitution">Europejska Uczelnia Nauk Medycznych i Społecznych, Teb Edukacja, Harvard</p>
+                
+                <p class="sidebar-email">
+                    <a href="mailto:daniel_trzecinski@onet.pl">daniel_trzecinski@onet.pl</a>
+                </p>
+                
+                <div class="sidebar-socials">
+                    <a href="https://github.com/DanielTRZ" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://codepen.io/DanielTRZ" target="_blank"><i class="fab fa-codepen"></i></a>
+                    <a href="tel:502871508"><i class="fas fa-phone"></i></a>
+                </div>
+
+                <!-- NOWY PRZYCISK HAMBURGERA  -->
+                <button class="academic-hamburger" aria-label="Menu" id="academic-hamburger-btn">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+
+                <nav class="sidebar-nav">
+                    <a href="index.html" data-lang-key="navAbout">Bio / O mnie</a>
+                    <a href="skills.html" data-lang-key="navSkills">Umiejętności</a>
+                    <a href="experience.html" data-lang-key="navExperience">Doświadczenie</a>
+                    <a href="education.html" class="active" data-lang-key="navEducation">Edukacja & Kursy</a>
+                    <a href="projects.html" data-lang-key="navProjects">Projekty</a>
+                    <a href="hackathons.html" data-lang-key="navHackathons">Hackatony</a>
+                    <a href="photos.html" data-lang-key="navPhotos">Galeria / Zdjęcia</a>
+                    <a href="contact.html" data-lang-key="navContact">Kontakt & Referencje</a>
+                </nav>
+            </div>
+        </aside>
+
+        <!-- PRAWY PANEL - TREŚĆ GŁÓWNA -->
+        <main class="main-content">
+            <section id="education" class="content-section">
+                <h2 class="section-heading" data-lang-key="eduHeading">Edukacja</h2>
+                
+                <div class="education-timeline" style="margin-top: 20px;">
+                    <!-- Edu 1 -->
+                    <div class="edu-item" style="margin-bottom: 20px;">
+                        <h4 data-lang-key="edu1Title">Dyplomowany Specjalista Informatyk — Europejska Uczelnia Nauk Medycznych i Społecznych</h4>
+                        <p data-lang-key="edu1Desc">Informatyka (studia wyższe, short-cycle) - Uzyskany dyplom dyplomowanego specjalisty informatyka.</p>
+                    </div>
+                    <!-- Edu 2 -->
+                    <div class="edu-item" style="margin-bottom: 20px;">
+                        <h4 data-lang-key="edu3Title">CS50: Introduction to Computer Science — Harvard University</h4>
+                        <p data-lang-key="edu3Desc">Undergraduate Course – Ukończone.</p>
+                    </div>
+                    <!-- Edu 3 -->
+                    <div class="edu-item" style="margin-bottom: 20px;">
+                        <h4 data-lang-key="edu2Title">CS50's Introduction to Programming with Python — Harvard University</h4>
+                        <p data-lang-key="edu2Desc">Undergraduate Course –  Ukończone.</p>
+                    </div>
+                    <!-- Edu 4 -->
+                    <div class="edu-item" style="margin-bottom: 20px;">
+                        <h4 data-lang-key="edu4Title">Game Design (Projektowanie i testowanie gier) — Teb Edukacja Grudziądz</h4>
+                        <p data-lang-key="edu4Desc">Studium kształcenia praktycznego - Uzyskany dyplom potwierdzający kwalifikacje zawodowe.</p>
+                    </div>
+                    <!-- Edu 5 -->
+                    <div class="edu-item" style="margin-bottom: 20px;">
+                        <h4 data-lang-key="edu5Title">Programowanie aplikacji internetowych i mobilnych — Teb Edukacja Wrocław</h4>
+                        <p data-lang-key="edu5Desc">Studium kształcenia praktycznego - Uzyskany dyplom potwierdzający kwalifikacje zawodowe.</p>
+                    </div>
+                    <!-- Edu 6 -->
+                    <div class="edu-item" style="margin-bottom: 30px;">
+                        <h4 data-lang-key="edu6Title">Technik Informatyk — Policealna szkoła Teb Edukacja Gliwice</h4>
+                        <p data-lang-key="edu6Desc">Ukończone studium z pełnym tytułem zawodowym.</p>
+                    </div>
+                </div>
+
+                <!-- SEKCJA KURSY -->
+                <div class="courses-block" style="border-top: 1px double #ccc; padding-top: 25px; margin-top: 25px;">
+                    <h2 class="section-heading" data-lang-key="coursesHeading">Kursy & Certyfikaty</h2>
+                    
+                    <!-- Grupa 1: AI -->
+                    <div class="course-group" style="margin-top: 20px; margin-bottom: 25px;">
+                        <h3 data-lang-key="coursesGroup1Title">Sztuczna Inteligencja & Prompt Engineering</h3>
+                        <ul class="academic-list" style="padding-left: 20px; margin-top: 10px;">
+                            <li data-lang-key="c1_1"><strong>AIDEAS Level UP</strong> — Generator Pomysłów (Wydano: maj 2026)</li>
+                            <li data-lang-key="c1_2"><strong>Generator Pomysłów</strong> — AIDEAS program rozwojowy z kompetencji sztucznej inteligencji</li>
+                            <li data-lang-key="c1_3"><strong>Umiejętność Jutra: AI 2.0</strong> — Google & SGH (2025): Praktyczne zastosowania AI w pracy i projektach: generatywne modele językowe, automatyzacja, produktywność, analiza danych z użyciem narzędzi AI.</li>
+                            <li data-lang-key="c1_4"><strong>Podstawy sztucznej inteligencji</strong> — Ośrodek Przetwarzania Informacji – Państwowy Instytut Badawczy</li>
+                            <li data-lang-key="c1_5"><strong>Agent vs Asystent - Fundamenty</strong> — PFR S.A. (Wydano: maj 2026)</li>
+                            <li data-lang-key="c1_6"><strong>AI dla Liderek i Liderów Biznesu</strong> — PFR S.A. (Wydano: kwiecień 2026)</li>
+                            <li data-lang-key="c1_7"><strong>Use AI for everyday tasks</strong> — Fundacja Academic Partners (Wydano: kwiecień 2026)</li>
+                            <li data-lang-key="c1_8"><strong>AIDEAS Program Rozwoju Kompetencji AI</strong> — Generator Pomysłów (Wydano: marzec 2026)</li>
+                            <li data-lang-key="c1_9"><strong>Kurs AI w Biznesie i Codziennym Życiu</strong> — Fundacja Digital University (Wydano: styczeń 2026)</li>
+                        </ul>
+                    </div>
+
+                    <!-- Grupa 2: Sieci & OS -->
+                    <div class="course-group" style="margin-bottom: 25px;">
+                        <h3 data-lang-key="coursesGroupNetTitle">Inżynieria Sieciowa, Administracja & OS</h3>
+                        <ul class="academic-list" style="padding-left: 20px; margin-top: 10px;">
+                            <li data-lang-key="c2_1"><strong>Wprowadzenie do sieci komputerowych</strong> — Wyższa Szkoła Handlowa we Wrocławiu</li>
+                            <li data-lang-key="c2_2"><strong>Cisco Networking Academy:</strong> Introduction to Packet Tracer</li>
+                            <li data-lang-key="c2_3"><strong>Cisco Networking Academy:</strong> NDG Linux Unhatched</li>
+                            <li data-lang-key="c2_4"><strong>Microsoft Virtual Academy:</strong> Wprowadzenie do Active Directory Domain Services</li>
+                            <li data-lang-key="c2_5"><strong>Microsoft Virtual Academy:</strong> Wprowadzenie do Active Directory</li>
+                            <li data-lang-key="c2_6"><strong>Wprowadzenie do Uniwersalnych Aplikacji Windows Store</strong> — Microsoft Virtual Academy</li>
+                        </ul>
+                    </div>
+
+                    <!-- Grupa 3: Cyberbezpieczeństwo -->
+                    <div class="course-group" style="margin-bottom: 25px;">
+                        <h3 data-lang-key="coursesGroupSecTitle">Cyberbezpieczeństwo & Ochrona Danych</h3>
+                        <ul class="academic-list" style="padding-left: 20px; margin-top: 10px;">
+                            <li data-lang-key="c3_1"><strong>Techniki zabezpieczania danych w Internecie</strong> — Politechnika Białostocka</li>
+                            <li data-lang-key="c3_2"><strong>Bezpieczeństwo w cyberprzestrzeni</strong> — Warszawski Instytut Bankowości</li>
+                            <li data-lang-key="c3_3"><strong>Cisco Networking Academy:</strong> Wprowadzenie do Cyberbezpieczeństwa</li>
+                            <li data-lang-key="c3_4"><strong>Obsługa i bezpieczeństwo urządzeń mobilnych</strong> — Wyższa Szkoła Gospodarki w Bydgoszczy</li>
+                        </ul>
+                    </div>
+
+                    <!-- Grupa 4: Web Dev & QA -->
+                    <div class="course-group" style="margin-bottom: 25px;">
+                        <h3 data-lang-key="coursesGroup2Title">Web Development, Software Engineering & QA</h3>
+                        <ul class="academic-list" style="padding-left: 20px; margin-top: 10px;">
+                            <li data-lang-key="c4_1"><strong>Projektowanie witryn internetowych</strong> — Akademia Ekonomiczno-Humanistyczna w Warszawie</li>
+                            <li data-lang-key="c4_2"><strong>Projektowanie Witryn Internetowych</strong> — Uniwersytet VIZJA (Wydano: marzec 2026)</li>
+                            <li data-lang-key="c4_3"><strong>Wprowadzenie do testowania oprogramowania</strong> — Zachodniopomorska Szkoła Biznesu w Szczecinie</li>
+                            <li data-lang-key="c4_4"><strong>Język SQL – wstęp do relacyjnych baz danych</strong> — Comarch (Wydano: maj 2020)</li>
+                            <li data-lang-key="c4_5"><strong>Certyfikat TEB Edukacja:</strong> Praktyczna znajomość języków programowania: HTML, XHTML, CSS, JavaScript.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Grupa 5: Game Dev & IoT -->
+                    <div class="course-group">
+                        <h3 data-lang-key="coursesGroupGDevTitle">Game Dev, IoT & Systemy Zarządzania</h3>
+                        <ul class="academic-list" style="padding-left: 20px; margin-top: 10px;">
+                            <li data-lang-key="c5_1"><strong>Certyfikat TEB Edukacja:</strong> Podstawy obsługi silnika Unreal Engine.</li>
+                            <li data-lang-key="c5_2"><strong>Certyfikat TEB Edukacja:</strong> Podstawy obsługi silnika Unity.</li>
+                            <li data-lang-key="c5_3"><strong>Inteligentny dom dla każdego (Systemy IoT)</strong> — Wyższa Szkoła Gospodarki w Bydgoszczy</li>
+                            <li data-lang-key="c5_4"><strong>Myślenie komputacyjne – rozwijanie kompetencji technologicznych</strong> — Uniwersytet Śląski w Katowicach</li>
+                            <li data-lang-key="c5_5"><strong>Szkolenie z PN-EN ISO 50001 (Zarządzanie Energią)</strong> — Quality Assurance Poland</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+
+            <footer class="main-footer">
+                <p data-lang-key="footerText">&copy; 2026 Daniel Trzeciński. Wszystkie prawa zastrzeżone.</p>
+            </footer>
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

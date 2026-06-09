@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang-key="contactPageTitle">Kontakt | Daniel Trzeciński</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="page-wrapper">
+        
+        <!-- LEWY PANEL BOCZNY -->
+        <aside class="sidebar" id="sidebar-menu">
+            <div class="sidebar-sticky">
+                <div class="lang-container-desktop">
+                    <button class="lang-btn" id="lang-toggle">EN</button>
+                </div>
+                <p class="sidebar-sub" data-lang-key="sidebarSub">home page of</p>
+                <h1 class="sidebar-title">Daniel Trzeciński</h1>
+                <p class="sidebar-desc" data-lang-key="sidebarDesc">Absolwent Harvard University CS50X, Dyplomowany Specjalista Informatyk Programista Aplikacji Internetowych i Mobilnych, Game Designer, Technik informatyk</p>
+                <p class="sidebar-institution" data-lang-key="sidebarInstitution">Europejska Uczelnia Nauk Medycznych i Społecznych, Teb Edukacja, Harvard</p>
+                <p class="sidebar-email"><a href="mailto:daniel_trzecinski@onet.pl">daniel_trzecinski@onet.pl</a></p>
+                
+                <div class="sidebar-socials">
+                    <a href="https://github.com/DanielTRZ" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://codepen.io/DanielTRZ" target="_blank"><i class="fab fa-codepen"></i></a>
+                    <a href="tel:502871508"><i class="fas fa-phone"></i></a>
+                </div>
+
+                <!-- NOWY PRZYCISK HAMBURGERA  -->
+                <button class="academic-hamburger" aria-label="Menu" id="academic-hamburger-btn">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+
+                <nav class="sidebar-nav">
+                    <a href="index.html" data-lang-key="navAbout">Bio / O mnie</a>
+                    <a href="skills.html" data-lang-key="navSkills">Umiejętności</a>
+                    <a href="experience.html" data-lang-key="navExperience">Doświadczenie</a>
+                    <a href="education.html" data-lang-key="navEducation">Edukacja & Kursy</a>
+                    <a href="projects.html" data-lang-key="navProjects">Projekty</a>
+                    <a href="hackathons.html" data-lang-key="navHackathons">Hackatony</a>
+                    <a href="photos.html" data-lang-key="navPhotos">Galeria / Zdjęcia</a>
+                    <a href="contact.html" class="active" data-lang-key="navContact">Kontakt & Referencje</a>
+                </nav>
+            </div>
+        </aside>
+
+        <!-- PRAWY PANEL - TREŚĆ GŁÓWNA -->
+        <main class="main-content">
+            <section id="contact" class="content-section">
+                <h2 class="section-heading" data-lang-key="contactHeading">Kontakt </h2>
+                
+                <div class="contact-details" style="margin-top: 20px; margin-bottom: 30px;">
+                    <p><strong data-lang-key="contactPhone">Telefon:</strong> <a href="tel:502871508" style="color: inherit; text-decoration: none;">502 871 508</a></p>
+                    <p><strong>E-mail:</strong> <a href="mailto:daniel_trzecinski@onet.pl" style="color: inherit; text-decoration: none;">daniel_trzecinski@onet.pl</a></p>
+                    <p><strong>E-mail:</strong> <a href="mailto:daniel_trzecinski@onet.pl" style="color: inherit; text-decoration: none;">praca@danieltrzecinski.pl</a></p>
+                    <p><strong data-lang-key="contactLic">.</strong>......</p>
+                    <p><strong data-lang-key="contactLang">.</strong>......</p>
+                </div>
+                
+                <div class="academic-reference" style="border-top: 1px double #ccc; padding-top: 25px;">
+                    <h3 data-lang-key="refTitle" style="margin-bottom: 15px;">Referencje formalne</h3>
+                    <p><strong>Teb Edukacja Grudziądz</strong> — Studium Kształcenia Praktycznego (Kierunek: Game Design)</p>
+                    <p><strong data-lang-key="refPhone">Telefon:</strong> 56 6637840 | <strong>E-mail:</strong> grudziadz@teb-edukacja.pl</p>
+                </div>
+            </section>
+
+            <footer class="main-footer">
+                <p data-lang-key="footerText">&copy; 2026 Daniel Trzeciński. Wszystkie prawa zastrzeżone.</p>
+            </footer>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

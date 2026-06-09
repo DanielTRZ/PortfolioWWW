@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Trzeciński | Umiejętności</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="page-wrapper">
+        
+        <aside class="sidebar" id="sidebar-menu">
+            <div class="sidebar-sticky">
+                <div class="lang-container-desktop">
+                    <button class="lang-btn" id="lang-toggle">EN</button>
+                </div>
+
+                <p class="sidebar-sub" data-lang-key="sidebarSub">home page of</p>
+                <h1 class="sidebar-title">Daniel Trzeciński</h1>
+                <p class="sidebar-desc" data-lang-key="sidebarDesc">Absolwent Harvard University CS50X, Dyplomowany Specjalista Informatyk Programista Aplikacji Internetowych i Mobilnych, Game Designer, Technik informatyk</p>
+                <p class="sidebar-institution" data-lang-key="sidebarInstitution">Europejska Uczelnia Nauk Medycznych i Społecznych, Teb Edukacja, Harvard</p>
+                
+                <p class="sidebar-email">
+                    <a href="mailto:daniel_trzecinski@onet.pl">daniel_trzecinski@onet.pl</a>
+                </p>
+                
+                <div class="sidebar-socials">
+                    <a href="https://github.com/DanielTRZ" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://codepen.io/DanielTRZ" target="_blank"><i class="fab fa-codepen"></i></a>
+                    <a href="tel:502871508"><i class="fas fa-phone"></i></a>
+                </div>
+
+                <!-- NOWY PRZYCISK HAMBURGERA -->
+                <button class="academic-hamburger" aria-label="Menu" id="academic-hamburger-btn">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+
+                <nav class="sidebar-nav">
+                    <a href="index.html" data-lang-key="navAbout">Bio / O mnie</a>
+                    <a href="skills.html" class="active" data-lang-key="navSkills">Umiejętności</a>
+                    <a href="experience.html" data-lang-key="navExperience">Doświadczenie</a>
+                    <a href="education.html" data-lang-key="navEducation">Edukacja & Kursy</a>
+                    <a href="projects.html" data-lang-key="navProjects">Projekty</a>
+                    <a href="hackathons.html" data-lang-key="navHackathons">Hackatony</a>
+                    <a href="photos.html" data-lang-key="navPhotos">Galeria / Zdjęcia</a>
+                    <a href="contact.html" data-lang-key="navContact">Kontakt & Referencje</a>
+                </nav>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <section id="skills" class="content-section">
+                <h2 class="section-heading" data-lang-key="skillsHeading">Umiejętności i Kompetencje</h2>
+                
+                <div class="skills-group" style="margin-bottom: 25px;">
+                    <h3 data-lang-key="skillsGroup1Title">Sztuczna Inteligencja & Narzędzia AI</h3>
+                    <p style="margin: 5px 0 10px 0;" data-lang-key="skillsGroup1Desc">Zaawansowane wykorzystanie modeli generatywnych oraz inżynieria promptów w codziennej pracy programistycznej i analitycznej:</p>
+                    <ul class="academic-list" style="padding-left: 20px;">
+                        <li data-lang-key="skillsAiLi1"><strong>Systemy konwersacyjne & LLM:</strong> ChatGPT, Gemini, LeChat.</li>
+                        <li data-lang-key="skillsAiLi2"><strong>Autonomiczni agenci AI:</strong> Praca z asynchronicznymi agentami (Jules).</li>
+                        <li data-lang-key="skillsAiLi3"><strong>Automatyzacja & Analiza:</strong> Automatyzacja powtarzalnych zadań biznesowych oraz zaawansowana analiza danych z wykorzystaniem AI.</li>
+                    </ul>
+                </div>
+
+                <div class="skills-group" style="margin-bottom: 25px;">
+                    <h3 data-lang-key="skillsGroupSysTitle">Administracja, Hardware & IoT</h3>
+                    <p style="margin: 5px 0 10px 0;" data-lang-key="skillsGroupSysDesc">Kompleksowe zarządzanie środowiskiem systemowym oraz infrastrukturą sprzętową:</p>
+                    <ul class="academic-list" style="padding-left: 20px;">
+                        <li data-lang-key="skillsSysLi1"><strong>Administracja OS:</strong> Zarządzanie, optymalizacja i konfiguracja systemów operacyjnych Windows oraz Linux.</li>
+                        <li data-lang-key="skillsSysLi2:"><strong>Serwis i Konserwacja:</strong> Diagnozowanie usterek, konserwacja i modernizacja komputerów klasy PC.</li>
+                        <li data-lang-key="skillsSysLi3"><strong>Systemy IoT (Internet of Things):</strong> Projektowanie, tworzenie oraz pełna konfiguracja struktur IoT, instalacja i integracja urządzeń (inteligentne czujniki, kontrolery wykonawcze).</li>
+                    </ul>
+                </div>
+
+                <div class="skills-group" style="margin-bottom: 25px;">
+                    <h3 data-lang-key="skillsGroup3Title">Inżynieria Sieciowa & Bezpieczeństwo</h3>
+                    <p style="margin: 5px 0 10px 0;" data-lang-key="skillsGroup3Desc">Projektowanie, implementacja fizyczna oraz logiczna infrastruktury sieciowej LAN/WLAN:</p>
+                    <ul class="academic-list" style="padding-left: 20px;">
+                        <li data-lang-key="skillsNetLi1"><strong>Konfiguracja sieci:</strong> Zarządzanie sieciami przewodowymi i bezprzewodowymi, konfiguracja punktów dostępowych (Access Point) oraz routerów Wi-Fi.</li>
+                        <li data-lang-key="skillsNetLi2"><strong>Instalacja fizyczna (Strukturalna):</strong> Budowa infrastruktury kablowej, profesjonalne zarabianie złączy RJ-45.</li>
+                        <li data-lang-key="skillsNetLi3"><strong>Logika sieci & Subnetting:</strong> Zaawansowana adresacja IP (IPv4/IPv6), planowanie podsieci (subnetting), wdrażanie adresacji statycznej oraz dynamicznej (konfiguracja DHCP, zapór sieciowych/Firewall oraz mechanizmów NAT).</li>
+                        <li data-lang-key="skillsNetLi4"><strong>Narzędzia diagnostyczne i audyt:</strong> Wireshark, nmap, netstat, ping, tracert, ipconfig / ifconfig. Zabezpieczanie systemów sieciowych oraz urządzeń IoT.</li>
+                    </ul>
+                </div>
+
+                <div class="skills-group" style="margin-bottom: 25px;">
+                    <h3 data-lang-key="skillsGroup2Title">Programowanie & Technologie</h3>
+                    <p style="margin: 5px 0 10px 0;" data-lang-key="skillsGroup2Desc">Tworzenie kodu źródłowego, aplikacji internetowych oraz środowisk interaktywnych:</p>
+                    <ul class="academic-list" style="padding-left: 20px;">
+                        <li data-lang-key="skillsProgLi1"><strong>Web Development:</strong> HTML, CSS (w tym zaawansowane CSS Art), JavaScript, PHP.</li>
+                        <li data-lang-key="skillsProgLi2"><strong>Interactive & Game Dev:</strong> Projektowanie logiki i poziomów w silnikach Unreal Engine oraz Unity.</li>
+                    </ul>
+                </div>
+
+                <div class="skills-group">
+                    <h3 data-lang-key="skillsLangTitle">Języki</h3>
+                    <ul class="academic-list" style="padding-left: 20px; margin-top: 10px;">
+                        <li data-lang-key="skillsLangLi1"><strong>Polski:</strong> Ojczysty (Native)</li>
+                        <li data-lang-key="skillsLangLi2"><strong>Angielski:</strong> Poziom B1 ( wspierany narzędziowo)</li>
+                    </ul>
+                </div>
+            </section>
+
+            <footer class="main-footer">
+                <p data-lang-key="footerText">&copy; 2026 Daniel Trzeciński. Wszystkie prawa zastrzeżone.</p>
+            </footer>
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
