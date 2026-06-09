@@ -12,7 +12,7 @@ I am always hunting for optimal solutions, and I highly value clean code, perfor
 
 ### Frontend & CSS Art
 * **Languages:** HTML5, CSS3 / SASS, JavaScript
-* **Passion:** Creating advanced graphics and interfaces using code alone (CSS Art) – check out my [CodePen]([https://codepen.io/DanielTRZ]).
+* **Passion:** Creating advanced graphics and interfaces using code alone (CSS Art) 
 
 ### Backend & Core Programming
 * **Python:** Scripting, automation, and core application logic (currently crushing Harvard's CS50P).
@@ -35,9 +35,7 @@ I am always hunting for optimal solutions, and I highly value clean code, perfor
 
 ## 📫 Let's Connect!
 
-
 * **Email:** praca@danieltrzecinski.pl 
-* **Portfolio / CodePen:** https://codepen.io/DanielTRZ
 
 ---
 <p align="center"><i>"The best way to predict the future is to code it."</i></p>
