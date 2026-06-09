@@ -12,7 +12,7 @@ I am always hunting for optimal solutions, and I highly value clean code, perfor
 
 ### Frontend & CSS Art
 * **Languages:** HTML5, CSS3 / SASS, JavaScript
-* **Passion:** Creating advanced graphics and interfaces using code alone (CSS Art) – check out my [CodePen]([LINK_TO_CODEPEN]).
+* **Passion:** Creating advanced graphics and interfaces using code alone (CSS Art) – check out my [CodePen]([https://codepen.io/DanielTRZ]).
 
 ### Backend & Core Programming
 * **Python:** Scripting, automation, and core application logic (currently crushing Harvard's CS50P).
