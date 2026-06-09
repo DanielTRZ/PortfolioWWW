@@ -32,19 +32,12 @@ I am always hunting for optimal solutions, and I highly value clean code, perfor
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=gotham" alt="Daniel's Stats" />
-</p>
-
----
 
 ## 📫 Let's Connect!
 
-* **LinkedIn:** [linkedin.com/in/YOUR_PROFILE]([LINK])
-* **Email:** praca@danieltrzecinski.pl *(or your preferred email)*
-* **Portfolio / CodePen:** [LINK]
+
+* **Email:** praca@danieltrzecinski.pl 
+* **Portfolio / CodePen:** https://codepen.io/DanielTRZ
 
 ---
 <p align="center"><i>"The best way to predict the future is to code it."</i></p>
