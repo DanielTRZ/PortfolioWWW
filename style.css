@@ -58,7 +58,6 @@ body {
     border-radius: 3px;
     transition: all 0.2s ease-in-out;
 }
-
 .lang-btn:hover {
     background-color: var(--harvard-crimson);
     color: #ffffff;
