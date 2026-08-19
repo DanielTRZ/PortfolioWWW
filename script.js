@@ -1,4 +1,4 @@
-// 1. Kompleksowa baza tłumaczeń dla wszystkich podstron portfolio (Daniel Trzeciński)
+// 1.     Baza tłumaczeń dla wszystkich podstron portfolio (Daniel Trzeciński)
 const translations = {
     pl: {
         // --- NAWIGACJA & ELEMENTY WSPÓLNE ---
