@@ -37,7 +37,6 @@ body {
     z-index: 1000;
     transition: transform 0.3s ease;
 }
-
 .sidebar-sticky {
     display: flex;
     flex-direction: column;
