@@ -41,7 +41,6 @@ body {
     display: flex;
     flex-direction: column;
 }
-
 /* Przełącznik języka - Desktop */
 .lang-container-desktop {
     display: flex;
