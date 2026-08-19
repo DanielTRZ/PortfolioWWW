@@ -47,7 +47,6 @@ body {
     justify-content: flex-end;
     margin-bottom: 20px;
 }
-
 .lang-btn {
     background: transparent;
     border: 1px solid var(--harvard-crimson);
