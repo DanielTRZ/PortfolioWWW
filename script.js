@@ -3,6 +3,7 @@
 
 
 
+
 // 1.     Baza tłumaczeń dla wszystkich podstron portfolio (Daniel Trzeciński)
 const translations = {
     pl: {
