@@ -1,4 +1,4 @@
-# PortfolioWWW ….lloo
+# PortfolioWWW ….ll
 EN
 # Hi there, I'm Daniel! 👋
 
