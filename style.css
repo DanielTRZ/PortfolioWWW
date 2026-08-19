@@ -25,7 +25,6 @@ body {
     min-height: 100vh;
     width: 100%;
 }
-
 /* --- LEWY PANEL BOCZNY (STACJONARNY DESKTOP) --- */
 .sidebar {
     width: var(--sidebar-width);
